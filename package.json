@@ -1,6 +1,6 @@
 {
-  "name": "dental-ui",
-  "version": "0.1.0",
+  "name": "oralnexa",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -26,10 +26,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"],
+    "rules": {
+      "jsx-a11y/anchor-is-valid": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -49,17 +49,3 @@
     "tailwindcss": "^3.4.17"
   }
 }
-
-{
-  "name": "OralNexa",
-  "version": "1.0.0",
-  ...
-  "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"],
-    "rules": {
-      "jsx-a11y/anchor-is-valid": "off"
-    }
-  },
-  ...
-}
-
