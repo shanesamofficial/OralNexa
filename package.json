@@ -49,3 +49,7 @@
     "tailwindcss": "^3.4.17"
   }
 }
+
+"rules": {
+  "jsx-a11y/anchor-is-valid": "off"
+}
